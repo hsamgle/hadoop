@@ -394,9 +394,9 @@
 
 ```
 # 启动hadoop  只需在master上启动，其他节点会被唤起
-	zookeeper/sbin/start-all.sh
+	/hadoop/sbin/start-all.sh
 # 启动 zookeeper  需要在三个节点上执行
-  /hadoop/bin/zkServer.sh start
+  /zookeeper/bin/zkServer.sh start
 # 启动 hase  只需在master上启动，其他节点会被唤起
   /hbase/bin/start-base.sh
 ```
